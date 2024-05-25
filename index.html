@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- TODO: 
+       COMPLETE: * Adicionar dropdown no numero de whatsapp
+       COMPLETE: * Fazer com que dropdown apareça ao passar o mouse
+        * Adicionar nome, descriçao e imagens do imovel
+        * Adicionar formulario "entrar em contato"
+        * Criar o rodape-->
+
+    <header>
+        <div class="topo">
+
+            <div class="whats" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                <div>
+                    <div class="num0">
+                        <a href="https://api.whatsapp.com/send?phone=5511987105403" target="_blank" class="numero">(11) 98710-5403</a>
+
+                        <span class="logoWhats">  <ion-icon name="logo-whatsapp"></ion-icon> </span>
+
+                        <span class="downArrow"> <ion-icon name="chevron-down-outline"></ion-icon> </span>
+                    </div>
+
+                    <div class="dropdown">
+                        <div class="num1">
+                            <a href="https://api.whatsapp.com/send?phone=5511987105403" target="_blank" class="numero">(11) 98710-5403</a>
+                            <span class="logoDrop">  <ion-icon name="logo-whatsapp"></ion-icon> </span>
+                        </div>
+                    
+                        <div class="num2">
+                            <a href="https://api.whatsapp.com/send?phone=5511984626175" target="_blank" class="numero">(11) 98462-6175</a>
+                            <span class="logoDrop">  <ion-icon name="logo-whatsapp"></ion-icon> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="" class="logo"> <img src="./imgs/logo.png" alt="" /> </a>
+
+            <div class="redes">
+                <ul>
+                    <li><a href="https://www.instagram.com/paulino.corretores/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.facebook.com/paulopaulinocorretor" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC5gp_dGfDeVmKJ52IV7Qz3A" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="infos1">
+
+        <div class="tituloApre">
+            <h2>Para você que sonha com o espaço de uma casa <br> mas não abre mão da segurança de um apartamento.</h2>
+            <h3>Apartamento Garden à venda no condomínio Reserva do Alto
+            <br>Jardim Tupanci - Barueri/SP</h3>
+        </div>
+
+        <div class="imgFundo">
+            <img src="imgs/0393.jpg" alt="">
+        </div>
+
+        <!-- <div class="agendar">
+            <button class="btn1">agendar visita</button>
+        </div> -->
+
+    </section>
+
+            <!-- Slider main container -->
+            <div class="swiper infosCondominio">
+                <h2>Condomínio com</h2>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <i class="fa-solid fa-dumbbell"> <h6>Academia</h6> </i>
+                    <i class="fa-solid fa-film"> <h6>Cinema</h6></i>
+                    <i class="fa-solid fa-computer"> <h6>Lan house</h6> </i>
+                    <i class="fa-solid fa-water-ladder"> <h6>Piscina</h6></i>
+                </div>
+
+                <div class="swiper-slide">
+                    <i class="fa-solid fa-cake-candles"><h6>salao <br>de festas</h6></i>
+                    <i class="fa-regular fa-futbol"> <h6>campo <br> de futebol</h6></i>
+                    <i class="fa-solid fa-shapes"><h6>brinquedoteca</h6></i>
+                    <i class="fa-solid fa-dice-six"><h6>sala <br> de jogos</h6></i>
+                </div>
+
+                <div class="swiper-slide">
+                    <i class="fa-solid fa-road"> <h6>Pista <br> de caminhada</h6></i>
+                    <i class="fa-solid fa-tree"><h6>area verde <br> preservada</h6></i>
+                    <i class="fa-solid fa-hot-tub-person"><h6>Jacuzzi</h6></i>
+                    <i class="fa-solid fa-house-circle-check"><h6>Portaria <br> 24 Horas</h6></i>
+                </div>
+
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+    <section class="infos2">
+
+        <div class="content">
+
+            <div class="infosAp">
+                <h2>Descrição do imóvel</h2>
+
+                <p>
+                    
+                    Pé direito alto (2,80m), piso vinílico, papel de parede; móveis planejados (marcenaria); no quintal possui um depósito de 4m²; acesso exclusivo do quintal para a lavanderia.
+                    A área externa traz muitas possibilidades de criar novos espaços, deixando o apartamento ainda mais aconchegante.
+
+                </p>
+
+                <div class="comodos">
+                    <h3> <i class="fa-solid fa-expand"></i>Apartamento no térreo de 87m² + 85m² área externa (quintal).</h3>
+                    <h3> <i class="fa-solid fa-bed"></i>3 dormitorios, sendo 1 suite</h3>
+                    <h3><i class="fa-solid fa-shower"></i>2 baneiros</h3>
+                    <h3> <i class="fa-solid fa-car"></i>2 garagens</h3>
+                    <h3><i class="fa-solid fa-tv"></i>1 sala de tv</h3>
+                    <h3><i class="fa-solid fa-kitchen-set"></i>1 cozinha</h3>
+                    <h3><i class="fa-solid fa-utensils"></i>1 sala de jantar</h3>
+                    <h3><i class="fa-solid fa-sink"></i>1 área de serviço</h3>
+                    <h3><i class="fa-solid fa-paw"></i>Lugar ideal para seu pet</h3>
+                </div>
+
+                <div class="valores">
+                    <!-- <h2>Valores</h2> -->
+
+                    <h3><i class="fa-solid fa-dollar-sign"></i>R$948.000,00 com documentação pronta para financiamento</h3>
+
+                    <h3><i class="fa-solid fa-dollar-sign"></i>IPTU: R$500,00 (anual)</h3>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>Condomínio: R$990,00 (mensal)</h3>
+                </div>
+            </div>
+<!-- 
+            <div class="imgAp">
+                <img src="imgs/apImgs/img1.jpg" alt="">
+            </div> -->
+
+        </div>
+
+        <!-- <div class="agendar2">
+            <button class="btn2">agendar visita</button>
+        </div> -->
+
+        <!-- <div class="video">
+            <video controls loop>
+                <source src="imgs/Apartamento garden para venda em frente ao Parque Municipal de Barueri..mp4" type="video/mp4">
+            </video>
+        </div> -->
+        
+    </section>
+    
+
+        <div class="contato1">
+
+            <h2>Entre em contato</h2>
+
+            <div class="forms">
+                <form action="#" method="get" onsubmit="abrirWhatsapp()">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required /><br />
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required /><br />
+                    <input type="email" name="email" id="email" placeholder="E-mail" required /><br />
+                    <textarea name="msg" id="msg" placeholder="Tenho interesse neste imóvel, gostaria de mais informações. " rows="5" required></textarea><br />
+                    
+                    <div class="enviar">
+                        <button type="submit"><ion-icon name="logo-whatsapp"></ion-icon>Enviar mensagem</button>
+                    </div>
+                    </form>
+            </div>
+
+        </div>
+
+
+    <section class="imgsImovel">
+
+        <!-- <div class="imgFundo">
+            <img src="imgs/fundo.jpg" alt="">
+        </div> -->
+
+        
+
+         <!-- Slider main container -->
+        <div class="swiper">
+
+            <div class="titulo">
+                <h2>Imagens do apartamento e condomínio</h2>
+            </div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img1.jpg" alt="">
+                <img src="imgs/apImgs/img2.jpg" alt="">
+                <img src="imgs/apImgs/img3.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img4.jpg" alt="">
+                <img src="imgs/apImgs/img5.jpg" alt="">
+                <img src="imgs/apImgs/img6.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img7.jpg" alt="">
+                <img src="imgs/apImgs/img8.jpg" alt="">
+                <img src="imgs/apImgs/img9.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img10.jpg" alt="">
+                <img src="imgs/apImgs/img11.jpg" alt="">
+                <img src="imgs/apImgs/img12.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img13.jpg" alt="">
+                <img src="imgs/apImgs/img14.jpg" alt="">
+                <img src="imgs/apImgs/img15.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img16.jpg" alt="">
+                <img src="imgs/apImgs/img17.jpg" alt="">
+                <img src="imgs/apImgs/img18.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img19.jpg" alt="">
+                <img src="imgs/apImgs/img20.jpg" alt="">
+                <img src="imgs/apImgs/img21.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img22.jpg" alt="">
+                <img src="imgs/apImgs/img23.jpg" alt="">
+                <img src="imgs/apImgs/img24.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img25.jpg" alt="">
+                <img src="imgs/apImgs/img26.jpg" alt="">
+                <img src="imgs/apImgs/img27.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="imgs/apImgs/img28.jpg" alt="">
+                <img src="imgs/apImgs/img29.jpg" alt="">
+                <img src="imgs/apImgs/img30.jpg" alt="">
+            </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+    
+        </div>
+
+    </section>
+
+    <section class="localizacao">
+
+        <div class="localiza">
+
+            <div class="imgFundo">
+                <img src="imgs/parque.jpeg" alt="">
+            </div>            
+
+            <div class="titulo">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h2>Localização</h2>
+                <p>O condomínio fica em frente ao Parque Municipal Dom José. 
+                    O parque possui 94 mil m² de áreas verde, para práticas esportivas e lazer.
+                    Fácil acesso a Estrada dos Romeiros, Rodovia Castello Branco e bairro Alphaville.
+                </p>
+            </div>
+<!-- 
+            <div class="agendar3">
+                <button class="btn3">agendar visita</button>
+            </div> -->
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.190834532391!2d-46.87765958886404!3d-23.49562545909278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03b83c5ef801%3A0x7480a8171a4d3f16!2sCondom%C3%ADnio%20Reserva%20do%20Alto!5e1!3m2!1spt-BR!2sbr!4v1716573390912!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="left">
+
+            <h4>PAULINO Corretores</h4>
+
+            <div class="numeros">
+                <a href="https://api.whatsapp.com/send?phone=5511987105403" target="_blank">(11) 98710-5403</a>
+                <span>  <ion-icon name="logo-whatsapp"></ion-icon> </span>
+            </div>
+
+            <div class="numeros numeros2">
+                <a href="https://api.whatsapp.com/send?phone=5511987105403" target="_blank">(11) 98462-6175</a>
+                <span><ion-icon name="logo-whatsapp"></ion-icon> </span>
+            </div>
+            
+
+            <div class="email">
+                <span>
+                    <button class="emailBtn" onclick="copyEmail()">paulino@paulinocorretores.com.br</button>
+
+                    <button class="emailBtn" onclick="copyEmail()"><i class="fa-regular fa-paste"></i></button>
+                </span>
+            </div>
+
+            <div class="site">
+                <a href="https://paulinocorretores.com.br" target="_blank">Visite nosso site</a>
+            </div>
+
+            <div class="copyright">
+                <span>© Copyright 2024 - PAULINO Corretores - Todos os direitos reservados</span>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="contato">
+
+                <h2>Entre em contato</h2>
+
+                <div class="forms">
+                    <form action="#" method="get" onsubmit="abrirWhatsapp()">
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required /><br />
+                        <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required /><br />
+                        <input type="email" name="email" id="email" placeholder="E-mail" required /><br />
+                        <textarea name="msg" id="msg" placeholder="Tenho interesse neste imóvel, gostaria de mais informações. " rows="5" required></textarea><br />
+                        <button type="submit"><ion-icon name="logo-whatsapp"></ion-icon>Enviar mensagem</button>
+                      </form>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/0aa05e61c6.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
