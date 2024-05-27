@@ -3,7 +3,158 @@
     --secondary-color: #14094B;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 430px){
+    .topo .whats{
+        order: 2;
+        display: flex;
+        position: absolute;
+        top: 7.5%;
+        margin-right: -1.8em;
+    }
+
+    .topo .logo{
+        order: 1;
+    }
+
+    .topo .redes{
+        order: 3;
+        left: 6%;
+        margin-bottom: 10%;
+        position: relative;
+    }
+
+    .tituloApre{
+        font-size: 15px;
+        margin: 0 8px 0 8px;
+    }
+
+    .tituloApre h2{
+        line-height: 1.3em;
+    }
+
+    section.infos1{
+        height: 50vh;
+    }
+
+    section.infos1 .imgFundo img{
+        height: 50vh;
+    }
+
+    .infosCondominio{
+        height: 135px;
+    }
+
+    .swiper{
+        width: 90%;
+    }
+
+    .swiper .swiper-button-prev{
+        left: 5px;
+    }
+
+    .swiper .swiper-button-next{
+        right: 5px;
+    }
+
+    .swiper .swiper-slide i{
+        font-size: 15px;
+    }
+
+    .swiper .swiper-slide i h6{
+        line-height: 1.5em;
+        margin-top: 5px;
+    }
+
+    section.infos2{
+        height: 1000px;
+    }
+
+    section.infos2 .content{
+        min-height: 1000px;
+        position: relative;
+    }
+
+    section.infos2 .content .infosAp h2{
+        margin-right: 10%;
+    }
+
+    section.infos2 .content .infosAp .valores{
+        bottom: 0;
+        left: 0;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    section.infos2 .content .infosAp .valores h3{
+        font-size: 1em;
+        left: 0;
+        margin: 0;
+    }
+
+    .contato1{
+        position: relative;
+        top: 4vh;
+    }
+
+    .contato1 .forms form{
+        left: .55em;
+        display: block;
+    }
+
+    .contato1 .forms form input{
+        margin-bottom: 20px;
+    }
+
+    .contato1 .forms form textarea{
+        bottom: 0;
+        right: 8px;
+        width: 190px;
+    }
+
+    .contato1 .forms form .enviar{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-right: 1em;
+        margin-top: 1rem;
+    }
+
+    section.imgsImovel .swiper .titulo h2{
+        font-size: 20px;
+    }
+
+    section.imgsImovel{
+        height: 750px;
+    }
+
+    section.imgsImovel .swiper{
+        height: 620px;
+    }
+
+    section.imgsImovel .swiper .swiper-wrapper .swiper-slide img{
+        width: 40%;
+        height: 35%;
+        margin: 10px;
+    }
+
+    section.localizacao .localiza .titulo{
+        margin-right: 0;
+    }
+
+    section.localizacao .localiza .titulo p{
+        padding: 0 25px 0 25px;
+    }
+
+    section.localizacao .localiza .mapa iframe{
+        width: 85%;
+        height: 300px;
+        position: absolute;
+        top: 62%;
+        right: 7%;
+    }
+}
+
+@media only screen and (min-width:431px) and (max-width: 600px){
     *{
         margin: 0;
         padding: 0;

@@ -424,10 +424,8 @@ section.imgsImovel .swiper .swiper-pagination .swiper-pagination-bullet-active{
 }
 
 section.imgsImovel .swiper .swiper-wrapper .swiper-slide{
-    display: grid;
-    grid-template-columns: repeat(3, 400px);
+    display: block;
     text-align: center;
-    display: flex;
     justify-content: center;
 }
 
