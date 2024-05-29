@@ -47,3 +47,37 @@ function abrirWhatsapp() {
         + "*Mensagem*: " + msg;
       window.open(url, '_blank').focus();
 }
+
+ // Inicialize o Fancybox com a opção de botão de fechar
+ Fancybox.bind('[data-fancybox="gallery"]', {
+  Toolbar: {
+      display: [
+          { id: "close", position: "right" }
+      ]
+  },
+  closeButton: "inside", // Coloca o botão de fechar dentro da imagem
+});
+
+// Copiar email ao clicar
+const clipboard = new ClipboardJS('.emailBtn');
+const emailElement = document.getElementById('emailBtn');
+
+clipboard.on('success', function(e) {
+    // alert("Texto copiado")
+  	const originalText = emailElement.innerHTML;
+
+    emailElement.innerHTML = 'Copiado!';
+    emailElement.classList.add('copied');
+    emailElement.classList.remove('emailBtn');
+
+    setTimeout(() =>{
+      emailElement.innerHTML = originalText;
+      emailElement.classList.remove('copied');
+      emailElement.classList.add('emailBtn');
+    }, 2000);
+
+});
+
+clipboard.on('error', function(e) {
+    alert("Falha ao copiar texto")
+});

@@ -139,6 +139,8 @@
 
     section.localizacao .localiza .titulo{
         margin-right: 0;
+        bottom: 15%;
+        position: relative;
     }
 
     section.localizacao .localiza .titulo p{
@@ -149,8 +151,105 @@
         width: 85%;
         height: 300px;
         position: absolute;
-        top: 62%;
+        top: 50%;
         right: 7%;
+    }
+
+    footer{
+        height: 125vh;
+    }
+
+    footer .left{
+        width: 80%;
+        position: absolute;
+        display: block;
+        text-align: center;
+        top: 15%;
+    }
+
+    footer .left h4{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    } 
+
+    footer .left .numeros{
+        position: relative;
+    }
+
+    footer .left .copyright{
+        margin-top: 40px;
+        font-size: 6px;
+    }
+
+    footer .right{
+        display: block;
+        right: 35%;
+        bottom: 0;
+        top: 38%;
+    }
+
+    footer .right .contato{
+        height: 450px;
+    }
+
+    footer .right .contato h2{
+        font-size: 1.4em;
+    } 
+        
+    footer .right .contato .forms {
+        max-width: 600px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    footer .right .contato .forms form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    footer .right .contato .forms form input.tel{
+        bottom: 10px;
+        position: relative;
+    }
+
+    footer .right .contato .forms form input.tel,
+    footer .right .contato .forms form input.email {
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 40px;
+    }
+
+    footer .right .contato .forms form textarea,
+    footer .right .contato .forms form input.nome{
+        width: 100%;
+    }
+
+    footer .right .contato .forms form input.nome{
+        position: relative;
+        top: 20px;
+    }
+
+    footer .right .contato .forms form button{
+        width: 80%;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .input-group {
+        display: flex;
+        gap: 10px;
+    }
+
+    input.tel, input.email {
+        flex: 1;
+    }
+
+    footer .right .contato .forms form textarea {
+        grid-column: 1 / -1;
     }
 }
 
