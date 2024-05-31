@@ -92,6 +92,22 @@ function abrirWhatsapp() {
       window.open(url, '_blank').focus();
 }
 
+function abrirWhatsapp2() {
+  var nome = document.getElementById("nome2").value;
+  var telefone = document.getElementById("telefone2").value;
+  var email = document.getElementById("email2").value;
+  var msg = document.getElementById("msg2").value;
+  
+  var url = "https://wa.me/5511987105403?text=" // Seu numero
+    + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
+    + "%0a" // Quebra de linha
+    + "*Nome*: " + nome + "%0a" // Dados do formulário
+    + "*Telefone*: " + telefone + "%0a"
+    + "*E-mail*: " + email + "%0a"
+    + "*Mensagem*: " + msg;
+  window.open(url, '_blank').focus();
+}
+
  // Inicialize o Fancybox com a opção de botão de fechar
  Fancybox.bind('[data-fancybox="gallery"]', {
   Toolbar: {
