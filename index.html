@@ -173,10 +173,10 @@
 
             <div class="forms">
                 <form action="#" method="get" onsubmit="abrirWhatsapp()">
-                    <input type="text" name="nome" id="nome" placeholder="Nome" required /><br />
-                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required /><br />
-                    <input type="email" name="email" id="email" placeholder="E-mail" required /><br />
-                    <textarea name="msg" id="msg" placeholder="Tenho interesse neste imóvel, gostaria de mais informações. " rows="5" required></textarea><br />
+                    <input class="nome" type="text" name="nome" id="nome" placeholder="Nome" required /><br />
+                    <input class="tel" type="tel" name="telefone" id="telefone" placeholder="Telefone" required /><br />
+                    <input class="email" type="email" name="email" id="email" placeholder="E-mail" required /><br />
+                    <textarea class="msg" name="msg" id="msg" placeholder="Tenho interesse neste imóvel, gostaria de mais informações. " rows="5" required></textarea><br />
 
                     <div class="enviar">
                         <button type="submit"><ion-icon name="logo-whatsapp"></ion-icon>Enviar mensagem</button>
@@ -340,13 +340,15 @@
                 <div class="forms">
                     <form action="#" method="get" onsubmit="abrirWhatsapp()">
                         <input class="nome" type="text" name="nome" id="nome" placeholder="Nome" required /><br />
+
                         <div class="input-group">
                             <input class="tel" type="tel" name="telefone" id="telefone" placeholder="Telefone" required /><br />
                             <input class="email" type="email" name="email" id="email" placeholder="E-mail" required /><br />
                         </div>
-                        <textarea name="msg" id="msg" placeholder="Tenho interesse neste imóvel, gostaria de mais informações. " rows="5" required></textarea><br />
+
+                        <textarea class="msg" name="msg" id="msg" placeholder="Tenho interesse neste imóvel, gostaria de mais informações. " rows="5" required></textarea><br />
                         <button type="submit"><ion-icon name="logo-whatsapp"></ion-icon>Enviar mensagem</button>
-                      </form>
+                    </form>
                 </div>
 
             </div>
