@@ -224,14 +224,15 @@ button.btn3 {
     display: flex;
     text-align: center;
     justify-content: center;
+    bottom: 75px;
+    position: relative;
 }
 
 .swiper {
     width: 40%;
-    background:  #222745;
+    background:  #1F243E;
     /* border: 2px solid var(--primary-color); */
     border-radius: 10px;
-    bottom: 75px;
     color: white;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.6);
 }
@@ -354,6 +355,20 @@ section.infos2 .content .infosAp .valores{
     bottom: 45%;
     text-align: center;
     left: 15%;
+}
+
+section.infos2 .content .infosAp .valores .site{
+    margin-top: 70px;
+    text-transform: uppercase;
+    
+}
+
+section.infos2 .content .infosAp .valores .site a{
+    color: white;
+    font-size: 20px;
+    font-family: "Fjalla One", "Trebuchet MS", serif;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 
 section.infos2 .content .infosAp .valores h3{

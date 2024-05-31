@@ -3,7 +3,7 @@
     --secondary-color: #272d4d;
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 490px){
     .topo .whats{
         order: 2;
         display: flex;
@@ -24,12 +24,16 @@
     }
 
     .tituloApre{
-        font-size: 15px;
-        margin: 0 8px 0 8px;
+        font-size: 1em;
+        width: 80%;
     }
 
     .tituloApre h2{
         line-height: 1.3em;
+    }
+
+    .tituloApre h3{
+        margin-bottom: 50px;
     }
 
     section.infos1{
@@ -66,11 +70,11 @@
     }
 
     section.infos2{
-        height: 800px;
+        height: 850px;
     }
 
     section.infos2 .content{
-        min-height: 750px;
+        min-height: 800px;
         position: relative;
     }
 
@@ -87,6 +91,19 @@
         left: 0;
         margin-top: 30px;
         text-align: left;
+        width: 90%;
+    }
+
+    section.infos2 .content .infosAp .valores .site{
+        position: relative;
+        bottom: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    section.infos2 .content .infosAp .valores .site a{
+        font-size: 15px;
     }
 
     section.infos2 .content .infosAp .valores h3{
@@ -123,44 +140,57 @@
         margin-top: 1rem;
     }
 
+    section.imgsImovel .swiper .titulo{
+        width: 95%;
+        position: relative;
+        left: 10px;
+    }
+
     section.imgsImovel .swiper .titulo h2{
         font-size: 20px;
+        margin: 0;
     }
 
     section.imgsImovel{
-        height: 750px;
+        height: 550px;
     }
 
     section.imgsImovel .swiper{
-        height: 500px;
+        height: 400px;
     }
 
     section.imgsImovel .swiper .swiper-wrapper .swiper-slide img{
-        width: 90%;
-        height: 50%;
-        margin: 10px;
+        width: 85%;
+        height: 60%;
     }
 
     section.localizacao .localiza .titulo{
         margin-right: 0;
-        bottom: 15%;
+        bottom: 20%;
         position: relative;
+    }
+
+    section.localizacao .localiza .titulo i{
+        margin: 0;
+        display: flex;
+        justify-content: center;
     }
 
     section.localizacao .localiza .titulo p{
         padding: 0 25px 0 25px;
+        width: 100%;
     }
 
     section.localizacao .localiza .mapa iframe{
         width: 85%;
         height: 300px;
         position: absolute;
-        top: 50%;
+        top: 45%;
         right: 7%;
     }
 
     footer{
-        height: 125vh;
+        height: 100vh;
     }
 
     footer .left{
@@ -168,7 +198,7 @@
         position: absolute;
         display: block;
         text-align: center;
-        top: 15%;
+        top: 5%;
     }
 
     footer .left h4{
@@ -185,14 +215,15 @@
         margin-top: 40px;
         font-size: 6px;
         position: absolute;
-        top: 650px;
+        top: 630px;
     }
 
     footer .right{
         display: block;
         right: 35%;
         bottom: 0;
-        top: 32%;
+        top: 29%;
+        width: 75%;
     }
 
     footer .right .contato{
@@ -259,7 +290,7 @@
     }
 }
 
-@media only screen and (min-width:431px) and (max-width: 600px){
+@media only screen and (min-width:491px) and (max-width: 600px){
     *{
         margin: 0;
         padding: 0;
@@ -379,20 +410,21 @@
         top: 20%;
     }
 
+    section.imgsImovel .swiper .titulo h2{
+        font-size: 1.5em;
+    }
+
     section.imgsImovel .swiper .swiper-wrapper .swiper-slide{
-        display: grid;
-        grid-template-columns: repeat(2, 250px);
+        padding: 0;
+        margin: 0;
         text-align: center;
         justify-content: center;
     }
 
     section.imgsImovel .swiper .swiper-wrapper .swiper-slide img{
-        width: 90%;
-        height: 40%;
-        object-fit: cover;
-        object-position: center;
-        margin: 0px;
-        margin-left: 12px;
+        width: 80%;
+        height: 50%;
+        position: relative;
     }
 
     section.imgsImovel .swiper .swiper-wrapper .swiper-slide img:nth-child(3){

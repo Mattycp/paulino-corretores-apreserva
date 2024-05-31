@@ -25,7 +25,7 @@ const swiper1 = new Swiper('.swiper-1',{
 const swiper2 = new Swiper('.swiper-2',{
     slidesPerView: 3,
     slidesPerGroup: 1,
-    spaceBetween: 10,
+    spaceBetween: 5,
 
     // Optional parameters
     direction: 'horizontal',
@@ -43,10 +43,15 @@ const swiper2 = new Swiper('.swiper-2',{
     },
 
     breakpoints:{
-      320:{
+      300:{
         slidesPerView: 1,
         slidesPerGroup:1,
       },
+      // 491:{
+      //   slidesPerView: 2,
+      //   slidesPerGroup: 1,
+      //   spaceBetween: 10
+      // },
       1280:{
         slidesPerView: 3,
         slidesPerGroup: 1,
