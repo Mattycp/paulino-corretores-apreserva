@@ -1,5 +1,32 @@
 //================================== Swiper Config ============================================
-const swiper = new Swiper('.swiper',{
+const swiper1 = new Swiper('.swiper-1',{
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+
+const swiper2 = new Swiper('.swiper-2',{
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    spaceBetween: 10,
+
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -13,6 +40,17 @@ const swiper = new Swiper('.swiper',{
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints:{
+      320:{
+        slidesPerView: 1,
+        slidesPerGroup:1,
+      },
+      1280:{
+        slidesPerView: 3,
+        slidesPerGroup: 1,
+      }
     },
   
     // And if we need scrollbar

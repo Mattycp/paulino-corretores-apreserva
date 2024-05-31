@@ -1,6 +1,6 @@
 :root{
     --primary-color: #F3A811;
-    --secondary-color: #14094B;
+    --secondary-color: #272d4d;
 }
 
 @media only screen and (max-width: 430px){
@@ -132,12 +132,12 @@
     }
 
     section.imgsImovel .swiper{
-        height: 620px;
+        height: 500px;
     }
 
     section.imgsImovel .swiper .swiper-wrapper .swiper-slide img{
-        width: 40%;
-        height: 35%;
+        width: 90%;
+        height: 50%;
         margin: 10px;
     }
 

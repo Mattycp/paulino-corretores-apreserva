@@ -6,7 +6,7 @@
 
 :root{
     --primary-color: #F3A811;
-    --secondary-color: #14094B;
+    --secondary-color: #272d4d;
 }
 
 *{
@@ -120,7 +120,7 @@ header{
 
 /* Seção inicial */
 section.infos1{
-    background-color: #1B144C;
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: center; /* Alinhamento horizontal */
     align-items: center; /* Alinhamento vertical */
@@ -228,7 +228,7 @@ button.btn3 {
 
 .swiper {
     width: 40%;
-    background:  #10073C;
+    background:  #222745;
     /* border: 2px solid var(--primary-color); */
     border-radius: 10px;
     bottom: 75px;
@@ -419,6 +419,14 @@ section.imgsImovel .swiper .swiper-pagination{
     display: none;
 }
 
+section.imgsImovel .swiper .swiper-button-next{
+    padding-left: 30px;
+}
+
+section.imgsImovel .swiper .swiper-button-prev{
+    padding-right: 30px;
+}
+
 section.imgsImovel .swiper .swiper-pagination .swiper-pagination-bullet-active{
     background-color: var(--primary-color);
 }
@@ -430,11 +438,11 @@ section.imgsImovel .swiper .swiper-wrapper .swiper-slide{
 }
 
 section.imgsImovel .swiper .swiper-wrapper .swiper-slide img{
-    width: 28%;
+    width: 85%;
     height: 65%;
     object-fit: cover;
     object-position: center;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
     border: 3px solid var(--primary-color);
 }
@@ -664,7 +672,7 @@ footer .right{
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 45%;
+    bottom: 47%;
     margin-left: 50%;
     width: 300px;
 
